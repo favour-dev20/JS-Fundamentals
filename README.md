@@ -1,5 +1,9 @@
-# JS-Fundamentals
-This repository contains beginner JS scripts.
 
-## Script 0-javascript_is_amazing.js
-Prints "JavaScript is amazing" to the console using const.
+
+## Script 1-multi_languages.js
+
+Prints three lines to the console:
+- C is fun
+- Python is cool
+- JavaScript is amazing
+Using 'const' and 'console.log(...)'.
