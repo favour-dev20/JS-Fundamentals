@@ -15,3 +15,11 @@ Prints a message depending on the number of command-line arguments:
 - More than one → "Arguments found"
 
 Uses process.argv and console.log(...).
+## Script 3-value_argument.js
+
+Prints the first command-line argument passed to the script:
+- No argument → "No argument"
+- One argument → prints that argument
+
+Uses process.argv and console.log(...).  
+Does not use length or var.
