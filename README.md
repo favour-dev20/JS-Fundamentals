@@ -23,3 +23,12 @@ Prints the first command-line argument passed to the script:
 
 Uses process.argv and console.log(...).  
 Does not use length or var.
+## Script 4-concat.js
+
+Prints two command-line arguments in the format: "arg1 is arg2"
+- Two arguments → prints both
+- One argument → second is "undefined"
+- No arguments → both are "undefined"
+
+Uses process.argv and console.log(...).  
+Does not use var.
