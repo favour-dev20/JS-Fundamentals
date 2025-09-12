@@ -32,3 +32,21 @@ Prints two command-line arguments in the format: "arg1 is arg2"
 
 Uses process.argv and console.log(...).  
 Does not use var.
+### 6-multi_languages_loop.js
+
+Prints three programming languages and messages using a loop, with *one console.log* and no if/else statements.
+
+```javascript
+const languages = [
+  "C is fun",
+  "Python is cool",
+  "JavaScript is amazing"
+];
+
+let output = [];
+
+for (let i = 0; i < languages.length; i++) {
+  output.push(languages[i]);
+}
+
+console.log(output.join('\n'));
