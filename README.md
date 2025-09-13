@@ -50,3 +50,21 @@ for (let i = 0; i < languages.length; i++) {
 }
 
 console.log(output.join('\n'));
+### 6-multi_languages_loop.js
+
+Prints three programming languages using a loop and *one console.log* without if/else statements.
+
+```javascript
+const languages = [
+  "C is fun",
+  "Python is cool",
+  "JavaScript is amazing"
+];
+
+let output = languages[0];
+
+for (let i = 1; i < languages.length; i++) {
+  output += "\n" + languages[i];
+}
+
+console.log(output);
